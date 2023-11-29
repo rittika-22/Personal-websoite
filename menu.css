@@ -1,0 +1,180 @@
+*{
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+margin: 0;
+padding: 0;
+background: cover;
+}
+.header-main{
+    margin: 0;
+padding: 20px 10px;
+background-color: rgb(230, 242, 247)
+}
+.header-section{
+    display: flex;
+    color: rgb(49, 50, 47);
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+.nav-bar{
+       margin: auto;
+       padding: 35px 0;
+       justify-content: space-between;
+       align-items: center;
+       color: rgb(23, 23, 23);
+       font-weight: bold;
+}
+.nav-bar ul li{
+    display:inline-block;
+    list-style-type: none;
+    margin: 0 20px;
+    transition: 0.5s;
+    border-radius: 8px;
+    position: relative;
+}
+.nav-bar ul li:hover{
+   background-color: antiquewhite;
+   margin: 0;
+   padding: 10px 20px;
+
+}
+.logo{
+    font-size: 35px;
+    font-family: cursive;
+    color: black;
+    letter-spacing: 3px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 7px;
+}
+/*home section*/
+.part1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 30px;
+    background-color: rgb(252, 250, 247);
+}
+.my-details{
+    width: 50%;
+    padding: 10px 30px;
+}
+.my-details h1{
+    font-size: 40px;
+    font-family: cursive;
+}
+.my-details p{
+    color: rgb(65, 70, 70);
+}
+.my-details button{
+    margin: 15px 0 ;
+    padding: 10px 40px;
+    border-radius: 8px;
+    border: 2px solid rgb(157, 157, 232);
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    background:linear-gradient(rgb(86, 86, 200),skyblue)
+}
+.img-part1{
+   width: 40%;
+   border: 2px solid seagreen;
+}
+.img-part1 img{
+    width: 100%;
+}
+.part-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 30px ;
+    background-color: rgb(252, 250, 247);
+}
+.my-details2{
+    width: 50%;
+    padding: 30px 10px;
+    margin: 50px;
+    font-size: 30px;
+}
+.my-details2 button{
+    text-align: center;border: 2px solid rgb(209, 105, 126);
+    margin: 15px 0;
+    padding: 10px 50px;font-size: 15px;
+    background: linear-gradient(rgb(209, 105, 126),bisque);
+    text-decoration-color: black;
+    border-radius: 5px;
+}
+.naming{
+    text-align: center;
+}
+.naming h1{
+    font-size: 40px;
+}
+.naming p{
+    font-size: 20px;
+}
+.services{
+    display: grid;
+    grid-template-columns: repeat(3  ,1fr);
+    margin: 50px 150px;
+    grid-gap: 50px;
+}
+.services-items{
+    padding: 60px;
+    background-color: rgb(252, 250, 247);
+    border-radius: 8px;
+    text-align: center;
+}
+.iconn{
+height: 40px;
+width: 30px;
+}
+.iconn:hover{
+    color: rgb(93, 99, 102);
+}
+@media only screen and (max-width:600px){
+ body{
+        background-color: rgb(238, 219, 223)
+            
+}
+.header-section{
+    display: inline-block;
+}
+.nav-bar ul{
+    display: inline-block;
+}
+.nav-bar ul li{
+    padding: 5px;
+}
+.home-section{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+.my-details{
+    width: 100%;
+    padding: 10px 10px;
+}
+.my-details h1{
+    font-size: 40px;
+    font-family: cursive;
+}
+.my-details p{
+    color: rgb(51, 50, 49);
+}
+.img-part1{
+    width: 100%;
+    border: 2px solid seagreen;
+ }
+ .my-details2{
+    width: 100%;
+    padding: 10px 10px;
+    font-size: 15px;
+}
+.services{
+    display: grid;
+    grid-template-columns: repeat(1 ,1fr);
+    margin: 30px;
+    grid-gap: 10px;
+}
+}
